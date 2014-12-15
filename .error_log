@@ -1,0 +1,438 @@
+* using log directory ‘/home/ffivaz/Develop/grasp/grasp-R.Rcheck’
+* using R version 3.1.2 (2014-10-31)
+* using platform: x86_64-unknown-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘grasp-R/DESCRIPTION’ ... OK
+* this is package ‘grasp’ version ‘2.5-8’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .gitattributes
+  .gitignore
+  .git
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘grasp’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+grasp: no visible binding for global variable ‘XXXpred’
+grasp: no visible binding for global variable ‘YYY’
+grasp: no visible binding for global variable ‘XXX’
+grasp: no visible binding for global variable ‘OPTIONS’
+grasp: no visible binding for global variable ‘gr.modmask’
+grasp: warning in assign("gr.modmask", gr.modmask.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp: warning in assign("gr.selY", gr.selY, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp: warning in assign("gr.selX", gr.selX, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp: warning in assign("wc", wildcard, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp: warning in assign("OPTIONS", OPTIONS.local, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp: no visible binding for global variable ‘DATAFILTER’
+grasp: no visible binding for global variable ‘WEIGHTS’
+grasp: warning in assign("WEIGHTS", WEIGHTS.local, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp: warning in assign("gr.selXCOR", gr.selXCOR, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.adm.dump: no visible binding for global variable ‘OPTIONS’
+grasp.data.read: warning in assign("XXX", XXX, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.data.read: warning in assign("YYY", YYY, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.data.read: warning in assign("XXXpred", XXXpred, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.exp.RvsP: no visible binding for global variable ‘gr.selX’
+grasp.exp.RvsP: no visible binding for global variable ‘YYY’
+grasp.exp.RvsP: no visible binding for global variable ‘OPTIONS’
+grasp.exp.RvsP: no visible binding for global variable ‘XXX’
+grasp.exp.RvsP: no visible binding for global variable ‘gr.modmask’
+grasp.exp.RvsP: no visible binding for global variable ‘WEIGHTS’
+grasp.exp.cormat: no visible binding for global variable ‘gr.selX’
+grasp.exp.cormat: no visible binding for global variable ‘OPTIONS’
+grasp.exp.cormat: no visible binding for global variable ‘YYY’
+grasp.exp.cormat: no visible binding for global variable ‘gr.selXCOR’
+grasp.exp.cormat: no visible binding for global variable ‘XXX’
+grasp.exp.cormat: no visible binding for global variable ‘gr.modmask’
+grasp.exp.cormat : panel: no visible binding for global variable ‘YYY’
+grasp.exp.cormat : panel: no visible binding for global variable
+  ‘OPTIONS’
+grasp.exp.cormat: warning in assign("gr.selXCOR", gr.selXCOR.local, env
+  = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.exp.datamap: no visible binding for global variable ‘YYY’
+grasp.exp.datamap: no visible binding for global variable ‘OPTIONS’
+grasp.exp.datamap: no visible binding for global variable ‘XXX’
+grasp.exp.datamap: no visible binding for global variable ‘gr.modmask’
+grasp.exp.datamap: no visible binding for global variable ‘CONTOURS’
+grasp.exp.distry: no visible binding for global variable ‘OPTIONS’
+grasp.exp.distry: no visible binding for global variable ‘YYY’
+grasp.exp.distry: no visible binding for global variable ‘gr.modmask’
+grasp.exp.distry: no visible global function definition for ‘chisq.gof’
+grasp.exp.histo: no visible binding for global variable ‘gr.selX’
+grasp.exp.histo: no visible binding for global variable ‘OPTIONS’
+grasp.exp.histo: no visible binding for global variable ‘YYY’
+grasp.exp.histo: no visible binding for global variable ‘gr.modmask’
+grasp.exp.histo: no visible binding for global variable ‘XXX’
+grasp.exp.summary: no visible binding for global variable ‘YYY’
+grasp.exp.summary: no visible binding for global variable ‘OPTIONS’
+grasp.exp.summary: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.exp.summary: no visible binding for global variable ‘gr.modmask’
+grasp.exp.summary: no visible binding for global variable ‘XXX’
+grasp.exp.summary: no visible binding for global variable ‘gr.selX’
+grasp.exp.xpredplot: no visible binding for global variable ‘XXX’
+grasp.exp.xpredplot: no visible binding for global variable ‘OPTIONS’
+grasp.exp.xpredplot: no visible binding for global variable ‘XXXpred’
+grasp.in: no visible binding for global variable ‘YYY’
+grasp.in: no visible binding for global variable ‘XXX’
+grasp.in: no visible binding for global variable ‘XXXpred’
+grasp.in: warning in assign("YYY", Ymat, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: warning in assign("MODELCALLS", MODELCALLS, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("gr.modmask", gr.modmask.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("XXXlut", Xlut, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: warning in assign("XXX", Xmat, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: warning in assign("XXXpred", Xpred, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: warning in assign("gr.predmat", gr.predmat, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("gr.predmask", gr.predmask.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("XXX", XXX.local, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: warning in assign("XXXpred", XXXpred.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("gr.selX", 2, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.in: no visible binding for global variable ‘DROP.CONTRIB’
+grasp.in: no visible binding for global variable ‘ALONE.CONTRIB’
+grasp.in: no visible binding for global variable ‘MODEL.CONTRIB’
+grasp.in: no visible binding for global variable ‘gr.lastcontrib1’
+grasp.in: no visible binding for global variable ‘gr.lastcontrib2’
+grasp.in: no visible binding for global variable ‘gr.lastcontrib3’
+grasp.in: no visible binding for global variable ‘contribution1’
+grasp.in: no visible binding for global variable ‘contribution2’
+grasp.in: no visible binding for global variable ‘contribution3’
+grasp.in: no visible binding for global variable ‘VALIDATION’
+grasp.in: no visible binding for global variable ‘OPTIONS’
+grasp.in: no visible binding for global variable ‘WEIGHTS’
+grasp.in: warning in assign("WEIGHTS", WEIGHTS.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.in: warning in assign("DATAFILTER", gr.modmask.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.int.contplot: no visible binding for global variable ‘YYY’
+grasp.int.contplot: no visible binding for global variable ‘OPTIONS’
+grasp.int.contplot: no visible binding for global variable ‘MODELCALLS’
+grasp.int.contplot: warning in assign("gr.Yi", gr.Yi, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.int.contplot: no visible binding for global variable ‘XXX’
+grasp.int.contplot: no visible binding for global variable
+  ‘DROP.CONTRIB’
+grasp.int.contplot: no visible binding for global variable
+  ‘MODEL.CONTRIB’
+grasp.int.contplot: no visible binding for global variable
+  ‘ALONE.CONTRIB’
+grasp.int.contrib: no visible binding for global variable ‘YYY’
+grasp.int.contrib: no visible binding for global variable ‘OPTIONS’
+grasp.int.contrib: no visible binding for global variable ‘MODELCALLS’
+grasp.int.contrib: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.int.contrib: no visible binding for global variable
+  ‘ALONE.CONTRIB’
+grasp.int.contrib: no visible binding for global variable
+  ‘DROP.CONTRIB’
+grasp.int.contrib: no visible binding for global variable
+  ‘MODEL.CONTRIB’
+grasp.int.contrib: no visible binding for global variable ‘XXX’
+grasp.int.contrib: warning in assign("ALONE.CONTRIB", contribution2,
+  env = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.int.contrib: warning in assign("DROP.CONTRIB", contribution1, env
+  = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.int.contrib: warning in assign("MODEL.CONTRIB", contribution3,
+  env = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.int.plot: no visible binding for global variable ‘YYY’
+grasp.int.plot: no visible binding for global variable ‘OPTIONS’
+grasp.int.plot: no visible binding for global variable ‘MODELCALLS’
+grasp.int.plot: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.int.plot: no visible binding for global variable ‘XXX’
+grasp.int.response: no visible binding for global variable ‘OPTIONS’
+grasp.int.response : grasp.pred.lookup2: no visible binding for global
+  variable ‘MODELCALLS’
+grasp.int.response : grasp.pred.lookup2: no visible binding for global
+  variable ‘XXX’
+grasp.int.response : grasp.pred.lookup2: warning in assign("gr.selX",
+  selX, env = .GlobalEnv): correspondance partielle d'argument de 'env'
+  par rapport à 'envir'
+grasp.int.response : grasp.pred.lookup2: no visible binding for global
+  variable ‘gr.selX’
+grasp.int.response : grasp.pred.lookup2: no visible binding for global
+  variable ‘gr.modmask’
+grasp.int.response: no visible binding for global variable ‘gr.selX’
+grasp.int.response: no visible binding for global variable ‘XXX’
+grasp.int.response: no visible binding for global variable ‘YYY’
+grasp.int.response: no visible binding for global variable ‘MODELCALLS’
+grasp.mod.anova: no visible binding for global variable ‘YYY’
+grasp.mod.anova: no visible binding for global variable ‘OPTIONS’
+grasp.mod.anova: no visible binding for global variable ‘MODELCALLS’
+grasp.mod.anova: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.mod.anova: no visible binding for global variable ‘XXX’
+grasp.mod.validate: no visible binding for global variable ‘YYY’
+grasp.mod.validate: no visible binding for global variable ‘OPTIONS’
+grasp.mod.validate: warning in assign("gr.Yi", gr.Yi, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.mod.validate: no visible binding for global variable ‘MODELCALLS’
+grasp.mod.validate: no visible binding for global variable ‘XXX’
+grasp.mod.validate: no visible binding for global variable ‘VALIDATION’
+grasp.mod.validate: no visible binding for global variable ‘gr.modmask’
+grasp.mod.validate: warning in assign("OPTIONS", OPTIONS.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.mod.validate: warning in assign("SUBSETS", SUBSETS, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.mod.validate: no visible binding for global variable ‘gr.EVA.ROC’
+grasp.mod.validate: warning in assign("VALIDATION", validation, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.msk.limits: no visible binding for global variable ‘OPTIONS’
+grasp.msk.limits: no visible binding for global variable ‘YYY’
+grasp.msk.limits: no visible binding for global variable ‘gr.modmask’
+grasp.msk.limits: no visible binding for global variable ‘gr.predmask’
+grasp.msk.limits: no visible binding for global variable ‘XXX’
+grasp.msk.limits: no visible binding for global variable ‘XXXpred’
+grasp.msk.limits: no visible global function definition for ‘codes’
+grasp.msk.limits: warning in assign("gr.modmask", gr.modmask.local, env
+  = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.msk.limits: warning in assign("gr.predmask", gr.predmask.local,
+  env = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.options: no visible binding for global variable ‘gr.selX’
+grasp.options: no visible binding for global variable ‘XXXpred’
+grasp.options: no visible binding for global variable ‘XXX’
+grasp.options: warning in assign("OPTIONS", OPTIONS, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.pred: no visible binding for global variable ‘YYY’
+grasp.pred: no visible binding for global variable ‘OPTIONS’
+grasp.pred: no visible binding for global variable ‘MODELCALLS’
+grasp.pred: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.pred: no visible binding for global variable ‘XXX’
+grasp.pred: no visible binding for global variable ‘gr.predmat’
+grasp.pred: no visible binding for global variable ‘XXXpred’
+grasp.pred: no visible binding for global variable ‘gr.predmask’
+grasp.pred: warning in assign("gr.predmat", gr.predmat.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.pred.export: no visible binding for global variable ‘YYY’
+grasp.pred.export: no visible binding for global variable ‘OPTIONS’
+grasp.pred.export: no visible binding for global variable ‘MODELCALLS’
+grasp.pred.export: no visible binding for global variable ‘XXXpred’
+grasp.pred.export: no visible binding for global variable ‘gr.predmat’
+grasp.pred.export: warning in write(map, file = filename, ncol = Ncol,
+  append = TRUE): correspondance partielle d'argument de 'ncol' par
+  rapport à 'ncolumns'
+grasp.pred.lookup: no visible binding for global variable ‘YYY’
+grasp.pred.lookup: no visible binding for global variable ‘OPTIONS’
+grasp.pred.lookup: no visible binding for global variable ‘MODELCALLS’
+grasp.pred.lookup: warning in assign("gr.Yi", gr.Yi.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.pred.lookup: no visible binding for global variable ‘XXX’
+grasp.pred.lookup: no visible binding for global variable ‘wc’
+grasp.pred.lookup: no visible binding for global variable ‘XXXlut’
+grasp.pred.lookup: no visible binding for global variable ‘XXXpred’
+grasp.pred.lookup: no visible binding for global variable ‘gr.modmask’
+grasp.pred.lookup: no visible binding for global variable ‘gr.predmask’
+grasp.pred.plot: no visible binding for global variable ‘YYY’
+grasp.pred.plot: no visible binding for global variable ‘OPTIONS’
+grasp.pred.plot: no visible binding for global variable ‘XXXpred’
+grasp.pred.plot: no visible binding for global variable ‘gr.predmat’
+grasp.step: no visible binding for global variable ‘YYY’
+grasp.step: no visible binding for global variable ‘OPTIONS’
+grasp.step: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.step: no visible binding for global variable ‘MODELCALLS’
+grasp.step: no visible binding for global variable ‘gr.modmask’
+grasp.step: no visible binding for global variable ‘XXX’
+grasp.step: no visible binding for global variable ‘WEIGHTS’
+grasp.step: warning in assign("MODELCALLS", MODELCALLS.local, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.anova: no visible binding for global variable ‘OPTIONS’
+grasp.step.bruto: no visible binding for global variable ‘YYY’
+grasp.step.bruto : bruto.gam: no visible binding for global variable
+  ‘OPTIONS’
+grasp.step.bruto : bruto.gam: no visible binding for global variable
+  ‘XXX’
+grasp.step.bruto : bruto.gam: no visible binding for global variable
+  ‘YYY’
+grasp.step.bruto : bruto.gam: no visible binding for global variable
+  ‘gr.modmask’
+grasp.step.bruto : bruto.gam: no visible binding for global variable
+  ‘WEIGHTS’
+grasp.step.bruto: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.step.bruto: no visible binding for global variable ‘MODELCALLS’
+grasp.step.bruto: no visible binding for global variable ‘gr.modmask’
+grasp.step.bruto : bruto.scope: no visible binding for global variable
+  ‘XXX’
+grasp.step.bruto: no visible binding for global variable ‘XXX’
+grasp.step.bruto: no visible binding for global variable ‘OPTIONS’
+grasp.step.contrib: no visible binding for global variable ‘XXX’
+grasp.step.contrib: no visible binding for global variable ‘wc’
+grasp.step.contrib: no visible binding for global variable ‘OPTIONS’
+grasp.step.cross: no visible binding for global variable ‘gr.statname’
+grasp.step.cross: no visible binding for global variable ‘gr.StatSel’
+grasp.step.cross: no visible binding for global variable ‘gr.CrossSel’
+grasp.step.cross: no visible binding for global variable
+  ‘PLOTCROSS.VAL’
+grasp.step.cross: no visible binding for global variable
+  ‘PLOTCROSS.CVAL’
+grasp.step.cross: no visible binding for global variable ‘gr.Yi’
+grasp.step.cross: warning in assign("PLOTCROSS.VAL",
+  PLOTCROSS.VAL.local, env = .GlobalEnv): correspondance partielle
+  d'argument de 'env' par rapport à 'envir'
+grasp.step.cross: warning in assign("PLOTCROSS.CVAL",
+  PLOTCROSS.CVAL.local, env = .GlobalEnv): correspondance partielle
+  d'argument de 'env' par rapport à 'envir'
+grasp.step.crossplot: no visible binding for global variable ‘YYY’
+grasp.step.crossplot: no visible binding for global variable ‘OPTIONS’
+grasp.step.crossplot: no visible binding for global variable
+  ‘PLOTCROSS.VAL’
+grasp.step.crossplot: no visible binding for global variable
+  ‘PLOTCROSS.CVAL’
+grasp.step.crossval: no visible binding for global variable ‘YYY’
+grasp.step.crossval: no visible binding for global variable ‘gr.Yi’
+grasp.step.crossval: no visible binding for global variable ‘OPTIONS’
+grasp.step.crossval: warning in assign("PLOTCROSS.VAL", YYY[1, ], env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("PLOTCROSS.CVAL", YYY[1, ], env
+  = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.step.crossval: no visible binding for global variable ‘XXX’
+grasp.step.crossval: no visible binding for global variable
+  ‘gr.modmask’
+grasp.step.crossval: warning in assign("SUBSETS", SUBSETS, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.CrossSel", cvROC, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.statname", "ROC", env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.CrossSel", cvCOR, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.statname", "COR", env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.StatSel", ROC, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.crossval: warning in assign("gr.StatSel", COR, env =
+  .GlobalEnv): correspondance partielle d'argument de 'env' par rapport
+  à 'envir'
+grasp.step.full: no visible binding for global variable ‘YYY’
+grasp.step.full: no visible binding for global variable ‘OPTIONS’
+grasp.step.full: warning in assign("gr.Yi", gr.Yi, env = .GlobalEnv):
+  correspondance partielle d'argument de 'env' par rapport à 'envir'
+grasp.step.full: no visible binding for global variable ‘MODELCALLS’
+grasp.step.full: no visible binding for global variable ‘gr.modmask’
+grasp.step.full: no visible binding for global variable ‘XXX’
+grasp.step.full: warning in assign("MODELCALLS", MODELCALLS.local, env
+  = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.step.rocplot: warning in assign("gr.EVA.ROC", eva[eva$se > 0, ],
+  env = .GlobalEnv): correspondance partielle d'argument de 'env' par
+  rapport à 'envir'
+grasp.step.scope: no visible binding for global variable ‘XXX’
+grasp.step.scope: no visible binding for global variable ‘OPTIONS’
+grasp.step.start: no visible binding for global variable ‘OPTIONS’
+grasp.step.start: no visible binding for global variable ‘gr.selXCOR’
+grasp.step.start: no visible binding for global variable ‘gr.Yi’
+grasp.step.start: no visible binding for global variable ‘XXX’
+grasp.step.start: no visible binding for global variable ‘YYY’
+* checking Rd files ... WARNING
+prepare_Rd: grasp.Rd:76: unknown macro '\item'
+prepare_Rd: grasp.Rd:77: unknown macro '\item'
+prepare_Rd: grasp.Rd:78: unknown macro '\item'
+prepare_Rd: grasp.in.Rd:16: unknown macro '\item'
+prepare_Rd: grasp.in.Rd:17: unknown macro '\item'
+prepare_Rd: grasp.in.Rd:18: unknown macro '\item'
+prepare_Rd: grasp.step.aic.Rd:7-10: Section \synopsis is unrecognized and will be dropped
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  Warning: large data files saved inefficiently:
+                 size ASCII compress
+  XXX.RData     383Kb FALSE     none
+  XXXpred.RData 310Kb FALSE     none
+  YYY.RData     206Kb FALSE     none
+  
+  Note: significantly better compression could be obtained
+        by using R CMD build --resave-data
+                old_size new_size compress
+  XXX.RData        383Kb     67Kb       xz
+  XXXpred.RData    310Kb     45Kb       xz
+  YYY.RData        206Kb     11Kb       xz
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+WARNING: There were 2 warnings.
+NOTE: There were 2 notes.
