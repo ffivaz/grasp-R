@@ -44,14 +44,6 @@ plotpar = c(3, 3), prescol= "black", abscol="grey", nbar = 10, show.details = FA
 #
 #################################################################################
 
-
-if(!exists("gam")) { # test for gam package
-      library(gam)
-      if(!exists("gam")) {
-            print("!!! Install gam package from CRAN !!!")
-            return()
-      }
-}
 gr.selY <- selected.responses
 gr.selX <- selected.predictors
 

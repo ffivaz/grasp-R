@@ -7,8 +7,14 @@ cat("# (by Splus, adapted by A. Lehmann from step.gam)", "\n")
 cat("# grasp.step.contrib is a modified version of step.gam of Splus using the percentage ","\n")
 cat("# of variable contribution instead of AIC criteria", "\n")
 cat("#", "\n")
-scope.char <- function(form)
-as.character(.C("terms_pass1",e = list(form),t = as.integer(1),v = as.integer(0),r = integer(1), PACKAGE="base")$e[[1]])
+scope.char <- function(formula) {
+        formula = update(formula, ~-1 + .)
+        tt <- terms(formula)
+        tl <- attr(tt, "term.labels")
+        if (attr(tt, "intercept")) 
+            c("1", tl)
+        else tl
+    }
 
 re.arrange <- function(keep)
 {

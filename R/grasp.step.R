@@ -96,7 +96,7 @@ if(OPTIONS$TEST == "CROSS") {
 if(OPTIONS$TEST == "AIC") {
       # tests if AIC stepwise method is to be used
       cat("AIC SELECTION:", "\n")
-      ModelYi <- step.gam(gam.start, scope = STEPscope, keep= mkt.keep.AIC, trace = OPTIONS$SHOWDETAIL, direction= OPTIONS$DIRECTION)
+      ModelYi <- step.gam(gam.start, scope = STEPscope, keep= mkt.keep.AIC, trace = OPTIONS$SHOWDETAIL, direction= OPTIONS$DIRECTION, AIC=AIC)
       MODELCALLS.local[[gr.Yi]]$call <- ModelYi$call
       names(MODELCALLS.local)[gr.Yi] <- names(YYY)[gr.Yi]
 }

@@ -27,13 +27,7 @@ bruto.gam <- function(bruto.y, bruto.x, max.smooth = max(OPTIONS$DF2), sp.no = 1
       # takes as input args selecting dataframe, x and y columns
       #
       # require(mda) http://www.stats.ox.ac.uk/pub/MASS4/Software.html#Windows
-      if(!exists("bruto")) {
-            library(mda)
-            if(!exists("bruto")) {
-                  print("install library mda from: http://www.stats.ox.ac.uk/pub/MASS4/Software.html#Windows")
-                  return()
-            }
-      }
+      
       print(names(XXX)[bruto.x])
       # setup input data and assign to position one
       # get the dataframe name

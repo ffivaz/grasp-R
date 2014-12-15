@@ -6,9 +6,6 @@ cat("# FUNCTION: grasp.in ", "\n")
 cat("# (by A. Lehmann )", "\n")
 cat("# initializes the GRASP objects", "\n")
 cat("#", "\n")
-# REQUIRED LIBRARIES
-require(gam)
-library(mda)
 
 if(!is.null(Ymat)) {
       assign("YYY", Ymat, env = .GlobalEnv)
